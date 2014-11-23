@@ -1,16 +1,12 @@
 ==================================================================
 Codebook for "meanData.txt"
 ==================================================================
-Course Project: Getting & Cleaning Data
 Author: Anna Zink
-Created on: 11/23/2014
-==================================================================
 
 Summary
 ==================================================================
 The "meanData.txt" file reports the average of each mean and 
-standard deviation measurement for each activity and each subject 
-provided in the Human Activity Recognition Using Smartphones Dataset
+standard deviation measurement for each activity and each subject provided in the Human Activity Recognition Using Smartphones Dataset
 ==================================================================
 
 Variables in Dataset
@@ -51,11 +47,11 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
--mean(): Mean value
--std(): Standard deviation
+- mean(): Mean value
+- std(): Standard deviation
 
 # Averages provided for the following features
-## Note: The number is the index of the feature on the original dataset. 
+### Note: The number is the index of the feature on the original dataset. 
 
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y

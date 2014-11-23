@@ -2,10 +2,7 @@
 Getting & Cleaning Data Course Project: Working with the 
 Human Activity Recognition Using Smartphones Dataset
 ==================================================================
-Course Project: Getting & Cleaning Data
 Author: Anna Zink
-Created on: 11/23/2014
-==================================================================
 
 Summary
 ==================================================================
@@ -28,30 +25,29 @@ The codebook for the resulting dataset "meanData.txt"
 Summary of Analysis in 'run_analysis.R'
 ======================================
 
-1. Read in the datasets necessary to perform the analysis. 
-The following data was used: 
+1. Read in the datasets necessary to perform the analysis. The following data was used: 
 
-Test data:
-- **'test/X_test.txt'**: Measurements
-- **'test/Y_test.txt'**: Activity
-- **'test/subject_test.txt'**: Subject identifier
+	Test data:
+	- **'test/X_test.txt'**: Measurements
+	- **'test/Y_test.txt'**: Activity
+	- **'test/subject_test.txt'**: Subject identifier
 
-Train data:
-- **'train/X_train.txt'**: Measurements
-- **'train/Y_train.txt'**: Activity 
-- **'train/subject_train.txt'**: Subject identifier
+	Train data:
+	- **'train/X_train.txt'**: Measurements
+	- **'train/Y_train.txt'**: Activity 
+	- **'train/subject_train.txt'**: Subject identifier
 
-Additional files:
-- **'features.txt'** : List of measurements in the X* datasets
-- **'activity_labels.txt'** : Provided labels for activities in the Y datasets
+	Additional files:
+	- **'features.txt'** : List of measurements in the X* datasets
+	- **'activity_labels.txt'** : Provided labels for activities in the Y datasets
 
 2. Combine the data into 1 dataset providing measurements for all activities 
 for each subject in both the testand training datasets. 
 
--First, the test data and training data for the measurements, activities and subjects was 
+ - First, the test data and training data for the measurements, activities and subjects was 
 column bound together into one dataset. 
 
--Then the training and test data was stacked together (row bound) to create one dataset. 
+ -Then the training and test data was stacked together (row bound) to create one dataset. 
 Descriptive column names were added to the dataset using the 'features.txt' file which
 provided labels for all the measurements in the X* datasets. 
 
