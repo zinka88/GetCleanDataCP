@@ -1,6 +1,5 @@
 ==================================================================
-Getting & Cleaning Data Course Project: Working with the 
-Human Activity Recognition Using Smartphones Dataset
+Getting & Cleaning Data Course Project: Working with the Human Activity Recognition Using Smartphones Dataset
 ==================================================================
 Author: Anna Zink
 
@@ -47,7 +46,7 @@ for each subject in both the testand training datasets.
  - First, the test data and training data for the measurements, activities and subjects was 
 column bound together into one dataset. 
 
- -Then the training and test data was stacked together (row bound) to create one dataset. 
+ - Then the training and test data was stacked together (row bound) to create one dataset. 
 Descriptive column names were added to the dataset using the 'features.txt' file which
 provided labels for all the measurements in the X* datasets. 
 
