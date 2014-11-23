@@ -1,20 +1,20 @@
 ==================================================================
 Codebook for "meanData.txt"
 ==================================================================
-Name: Anna Zink
-Class: Getting & Cleaning Data
-Date: 11/23/2014
+Course Project: Getting & Cleaning Data
+Author: Anna Zink
+Created on: 11/23/2014
 ==================================================================
 
 Summary
 ==================================================================
-Codebook for "meanData.txt" which provides average of each mean and 
-standard deviation measurement for each activity and each subject
+The "meanData.txt" file reports the average of each mean and 
+standard deviation measurement for each activity and each subject 
 provided in the Human Activity Recognition Using Smartphones Dataset
 ==================================================================
 
-The following information is provided for each record:
-======================================
+Variables in Dataset
+==================================================================
 - An identifier of the subject who carried out the experiment ("ID")
 - The activity ("Activity")
 - The activity label ("Activity_Label")
@@ -51,12 +51,12 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+-mean(): Mean value
+-std(): Standard deviation
 
-The dataset provides averages of the following features (the number provided is the index
-of the feature in the original dataset)
-==============
+# Averages provided for the following features
+## Note: The number is the index of the feature on the original dataset. 
+
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
 3 tBodyAcc-mean()-Z
@@ -123,7 +123,6 @@ of the feature in the original dataset)
 530 fBodyBodyGyroMag-std()
 542 fBodyBodyGyroJerkMag-mean()
 543 fBodyBodyGyroJerkMag-std()
-
 
 Activity List
 ==============
